@@ -15,11 +15,11 @@
 
 int main() {
     LOOP(1000) {
-        auto min = cxxrandom::get(std::numeric_limits<long>::min() / 2, -128);  // NOLINT
-        auto max = cxxrandom::get(127, std::numeric_limits<long>::max() / 2);   // NOLINT
+        auto min = cxxrandom::get(std::numeric_limits<unsigned long>::min() / 2, 100);  // NOLINT
+        auto max = cxxrandom::get(200, std::numeric_limits<unsigned long>::max() / 2);  // NOLINT
 
-        assert(min <= -128);
-        assert(max >= 127);
+        assert(min <= 100);
+        assert(max >= 200);
 
         auto rnd = cxxrandom::get(min, max);
         assert(rnd <= max);

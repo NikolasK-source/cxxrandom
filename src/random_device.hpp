@@ -1,5 +1,5 @@
 /*
- * Created by Nikolas Koesling on ${Year}-${Month}-${Day}.
+ * Created by Nikolas Koesling on 2024-03-01.
  */
 
 #pragma once

@@ -3,7 +3,7 @@
  */
 
 /*
- * Test: get random integers
+ * Test: get random doubles
  */
 
 #include "cxxrandom.hpp"
@@ -15,11 +15,11 @@
 
 int main() {
     LOOP(1000) {
-        auto min = cxxrandom::get(std::numeric_limits<long>::min() / 2, -128);  // NOLINT
-        auto max = cxxrandom::get(127, std::numeric_limits<long>::max() / 2);   // NOLINT
+        auto min = cxxrandom::get(std::numeric_limits<double>::lowest() / 2, -128.0);  // NOLINT
+        auto max = cxxrandom::get(127.0, std::numeric_limits<double>::max() / 2);      // NOLINT
 
-        assert(min <= -128);
-        assert(max >= 127);
+        assert(min <= -128.0);
+        assert(max >= 127.0);
 
         auto rnd = cxxrandom::get(min, max);
         assert(rnd <= max);

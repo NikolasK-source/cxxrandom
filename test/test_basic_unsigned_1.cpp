@@ -17,10 +17,10 @@
 
 int main() {
     LOOP(10000) {
-        auto min = cxxrandom::get(std::numeric_limits<std::ptrdiff_t>::min() / 2,
-                                  std::numeric_limits<std::ptrdiff_t>::max() / 2);
-        auto max = cxxrandom::get(std::numeric_limits<std::ptrdiff_t>::min() / 2,
-                                  std::numeric_limits<std::ptrdiff_t>::max() / 2);
+        auto min = cxxrandom::get(std::numeric_limits<std::size_t>::min() / 2,
+                                  std::numeric_limits<std::size_t>::max() / 2);
+        auto max = cxxrandom::get(std::numeric_limits<std::size_t>::min() / 2,
+                                  std::numeric_limits<std::size_t>::max() / 2);
 
         try {
             auto rnd = cxxrandom::get(min, max);
