@@ -5,14 +5,9 @@
 #pragma once
 
 #include <cstddef>
+#include <vector>
 
 namespace cxxrandom {
-
-/**
- * @brief
- * @param num_dice
- * @return value
- */
 
 /**
  * @brief simulate throwing the dice
@@ -25,5 +20,13 @@ namespace cxxrandom {
  * @throws std::invalid_argument if dice_min >= dice_max
  */
 std::ptrdiff_t throw_dice(std::size_t num_dice = 1, std::ptrdiff_t dice_min = 1, ptrdiff_t dice_max = 6);
+
+/**
+ * @brief throw dice with custom values
+ * @param dice_values
+ * @param num_dice
+ * @return std::ptrdiff_t
+ */
+std::ptrdiff_t throw_custom_dice(const std::vector<std::ptrdiff_t> &dice_values, std::size_t num_dice = 1);
 
 }  // namespace cxxrandom

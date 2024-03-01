@@ -70,6 +70,7 @@ include(define.cmake)
 include(compileropts.cmake)
 
 # force C++ Standard and disable/enable compiler specific extensions
+set(CMAKE_CXX_STANDARD ${STANDARD})
 set_target_properties(${Target} PROPERTIES
         CXX_STANDARD ${STANDARD}
         CXX_STANDARD_REQUIRED ON
