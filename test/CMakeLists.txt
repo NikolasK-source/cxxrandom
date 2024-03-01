@@ -6,17 +6,24 @@
 enable_testing()
 
 # throw_dice
-foreach(i RANGE 5)
+foreach (i RANGE 5)
     add_executable(test_throw_dice_${i}_${Target} test_throw_dice_${i}.cpp)
     add_test(NAME test_throw_dice_${i}_${Target} COMMAND test_throw_dice_${i}_${Target})
     target_link_libraries(test_throw_dice_${i}_${Target} ${Target})
     set_options(test_throw_dice_${i}_${Target} OFF)
-endforeach()
+endforeach ()
 
-foreach(i RANGE 4)
+foreach (i RANGE 4)
     add_executable(test_throw_custom_dice_${i}_${Target} test_throw_custom_dice_${i}.cpp)
     add_test(NAME test_throw_custom_dice_${i}_${Target} COMMAND test_throw_custom_dice_${i}_${Target})
     target_link_libraries(test_throw_custom_dice_${i}_${Target} ${Target})
     set_options(test_throw_custom_dice_${i}_${Target} OFF)
-endforeach()
+endforeach ()
+
+foreach (i RANGE 1)
+    add_executable(test_basic_signed_${i}_${Target} test_basic_signed_${i}.cpp)
+    add_test(NAME test_basic_signed_${i}_${Target} COMMAND test_basic_signed_${i}_${Target})
+    target_link_libraries(test_basic_signed_${i}_${Target} ${Target})
+    set_options(test_basic_signed_${i}_${Target} OFF)
+endforeach ()
 
