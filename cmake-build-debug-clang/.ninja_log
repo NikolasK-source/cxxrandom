@@ -1,0 +1,27 @@
+# ninja log v5
+0	5415	1709308478169334184	CMakeFiles/cxxrandom.dir/src/dice.cpp.o	63f68d9d814b3391
+5415	5441	1709308478192668527	libcxxrandom.a	592f65366bc2c462
+0	7	0	/home/nk/Development/Privat/_CPP/libs/cxxrandom/cmake-build-debug-clang/CMakeFiles/cmake.verify_globs	c334d725e9010b86
+5441	5501	1709308478259338087	test/test_throw_dice_cxxrandom	dd43b67f6944e9ca
+1	81	1709308430520539840	test/CMakeFiles/test_throw_dice_cxxrandom.dir/test_throw_dice.cpp.o	2e22e53355bef1a4
+0	8	0	/home/nk/Development/Privat/_CPP/libs/cxxrandom/cmake-build-debug-clang/CMakeFiles/cmake.verify_globs	c334d725e9010b86
+0	1763	1709309613490530320	test/CMakeFiles/test_throw_dice_5_cxxrandom.dir/test_throw_dice_5.cpp.o	cb00f5d5b8a7d9e
+0	5407	1709309617133935373	CMakeFiles/cxxrandom.dir/src/dice.cpp.o	63f68d9d814b3391
+5407	5434	1709309617157269166	libcxxrandom.a	592f65366bc2c462
+5434	5491	1709309617220603745	test/test_throw_dice_5_cxxrandom	d1ddadd4b4de35e7
+0	10	0	/home/nk/Development/Privat/_CPP/libs/cxxrandom/cmake-build-debug-clang/CMakeFiles/cmake.verify_globs	c334d725e9010b86
+0	8	0	/home/nk/Development/Privat/_CPP/libs/cxxrandom/cmake-build-debug-clang/CMakeFiles/cmake.verify_globs	c334d725e9010b86
+1	99	1709309683088554664	test/CMakeFiles/test_throw_dice_0_cxxrandom.dir/test_throw_dice_0.cpp.o	c49b5ce9d2b5e6a9
+2	121	1709309683111888449	test/CMakeFiles/test_throw_dice_2_cxxrandom.dir/test_throw_dice_2.cpp.o	98dbde27681756be
+2	121	1709309683111888449	test/CMakeFiles/test_throw_dice_4_cxxrandom.dir/test_throw_dice_4.cpp.o	2a5df1ec3b33e04d
+2	122	1709309683111888449	test/CMakeFiles/test_throw_dice_3_cxxrandom.dir/test_throw_dice_3.cpp.o	1a4acd176e3b547d
+1	124	1709309683115221847	test/CMakeFiles/test_throw_dice_1_cxxrandom.dir/test_throw_dice_1.cpp.o	c8aeb3344c19030c
+99	203	1709309683191889994	test/test_throw_dice_0_cxxrandom	4dcd38b6a52354cc
+122	244	1709309683235224165	test/test_throw_dice_3_cxxrandom	48e225d02e2b5018
+121	248	1709309683238557563	test/test_throw_dice_2_cxxrandom	278e56cec2784af5
+124	248	1709309683238557563	test/test_throw_dice_1_cxxrandom	ce0690515ac5a637
+122	252	1709309683241890961	test/test_throw_dice_4_cxxrandom	bef9d6f5cf8cc46a
+1	597	0	CMakeFiles/doc_doxygen	e8112343dc772053
+1	597	0	/home/nk/Development/Privat/_CPP/libs/cxxrandom/cmake-build-debug-clang/CMakeFiles/doc_doxygen	e8112343dc772053
+3	2144	1709309685135260880	test/CMakeFiles/test_throw_dice_5_cxxrandom.dir/test_throw_dice_5.cpp.o	cb00f5d5b8a7d9e
+2144	2203	1709309685195262039	test/test_throw_dice_5_cxxrandom	d1ddadd4b4de35e7
