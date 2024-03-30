@@ -1,4 +1,4 @@
-Checks: 'bugprone-*,
+Checks:          'bugprone-*,
                   cert-dcl21-cpp,
                   cert-dcl58-cpp,
                   cert-err34-c,

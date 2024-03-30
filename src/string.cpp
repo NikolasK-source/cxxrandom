@@ -11,5 +11,5 @@ std::string cxxrandom::ascii_string(std::size_t length) {
     for (std::size_t i = length; i; --i)
         result << cxxrandom::get(' ', '~');
 
-    return std::move(result.str());
+    return result.str();
 }

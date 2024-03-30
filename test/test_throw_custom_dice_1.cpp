@@ -13,8 +13,6 @@
 
 using cxxrandom::throw_custom_dice;
 
-#define LOOP(count) for (std::size_t i = 0; i < (count); ++i)  // NOLINT
-
 int main() {
     try {
         auto tmp = throw_custom_dice({}, 0);

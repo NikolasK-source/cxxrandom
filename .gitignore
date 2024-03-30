@@ -1,4 +1,8 @@
 cmake-build
 docs
+docs_doxy
 build
-cmake-build-debug-clang
+cmake-build*
+src/generated/*.cpp
+src/generated/*.hpp
+include/CMAKE_Template_Lib_version_info.hpp

@@ -90,8 +90,8 @@ signed long throw_dice(unsigned long num_dice = 1, signed long dice_min = 1, ptr
 
 /**
  * @brief throw dice with custom values
- * @param dice_values
- * @param num_dice
+ * @param dice_values list of dice values
+ * @param num_dice number of dice
  * @return signed long
  */
 signed long throw_custom_dice(const std::vector<signed long> &dice_values, unsigned long num_dice = 1);
