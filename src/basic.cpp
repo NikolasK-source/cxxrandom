@@ -9,13 +9,13 @@
 template <typename T>
 static T random_int(T min, T max) {
     std::uniform_int_distribution<T> dist(min, max);
-    return dist(rnd.random_engine);
+    return dist(cxxrandom::rnd.random_engine);
 }
 
 template <typename T>
 static T random_float(T min, T max) {
     std::uniform_real_distribution<T> dist(min, max);
-    return dist(rnd.random_engine);
+    return dist(cxxrandom::rnd.random_engine);
 }
 
 std::ptrdiff_t cxxrandom::get(std::ptrdiff_t min, std::ptrdiff_t max) {

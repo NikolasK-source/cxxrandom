@@ -6,6 +6,8 @@
 
 #include <random>
 
+namespace cxxrandom {
+
 struct Rnd {
     mutable std::random_device         random_device;
     mutable std::default_random_engine random_engine;
@@ -14,3 +16,5 @@ struct Rnd {
 };
 
 extern const Rnd rnd;
+
+}  // namespace cxxrandom

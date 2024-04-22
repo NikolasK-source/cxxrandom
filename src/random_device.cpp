@@ -4,4 +4,8 @@
 
 #include "random_device.hpp"
 
+namespace cxxrandom {
+
 const Rnd rnd;
+
+}
