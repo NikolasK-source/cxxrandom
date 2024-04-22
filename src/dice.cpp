@@ -8,7 +8,7 @@
 
 #define LOOP(count) for (unsigned long i = 0; i < (count); ++i)  // NOLINT
 
-signed long cxxrandom::throw_dice(unsigned long num_dice, signed long dice_min, ptrdiff_t dice_max) {
+signed long cxxrandom::throw_dice(unsigned long num_dice, signed long dice_min, signed long dice_max) {
     if (dice_min >= dice_max)
         throw std::invalid_argument(std::string(__PRETTY_FUNCTION__) +  // NOLINT
                                     ": dice_min must be less than dice_max");

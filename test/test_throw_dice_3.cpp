@@ -18,10 +18,10 @@ using cxxrandom::throw_dice;
 #define LOOP(count) for (std::size_t i = 0; i < (count); ++i)  // NOLINT
 
 int main() {
-    std::unordered_set<std::ptrdiff_t> result_values;
+    std::unordered_set<long> result_values;
 
-    const std::vector<std::ptrdiff_t>  dice_values = {1, 2, 3, 4, 5, 6};
-    std::unordered_set<std::ptrdiff_t> dice_combo;
+    const std::vector<long>  dice_values = {1, 2, 3, 4, 5, 6};
+    std::unordered_set<long> dice_combo;
 
     for (auto x1 : dice_values) {
         for (auto x2 : dice_values) {

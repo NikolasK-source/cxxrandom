@@ -94,7 +94,7 @@ std::string ascii_string(std::size_t length);
  * @return sum of all dices
  * @throws std::invalid_argument if dice_min >= dice_max
  */
-signed long throw_dice(unsigned long num_dice = 1, signed long dice_min = 1, ptrdiff_t dice_max = 6);
+signed long throw_dice(unsigned long num_dice = 1, signed long dice_min = 1, signed long dice_max = 6);
 
 /**
  * @brief throw dice with custom values

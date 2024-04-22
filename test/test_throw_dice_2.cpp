@@ -17,7 +17,7 @@ using cxxrandom::throw_dice;
 #define LOOP(count) for (std::size_t i = 0; i < (count); ++i)  // NOLINT
 
 int main() {
-    std::unordered_set<std::ptrdiff_t> result_values;
+    std::unordered_set<long> result_values;
     LOOP(1000) {
         auto tmp = throw_dice(2);
         assert(tmp >= 2);
@@ -25,7 +25,7 @@ int main() {
         result_values.insert(tmp);
     }
 
-    for (std::ptrdiff_t i = 2; i <= 12; ++i) {
+    for (long i = 2; i <= 12; ++i) {
         assert(result_values.contains(i));
     }
 }

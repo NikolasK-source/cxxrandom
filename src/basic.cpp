@@ -18,7 +18,7 @@ static T random_float(T min, T max) {
     return dist(cxxrandom::rnd.random_engine);
 }
 
-std::ptrdiff_t cxxrandom::get(std::ptrdiff_t min, std::ptrdiff_t max) {
+long cxxrandom::get(long min, long max) {
     if (min >= max)
         throw std::invalid_argument(std::string(__PRETTY_FUNCTION__) + ": min must be less than max");  // NOLINT
     return random_int(min, max);
