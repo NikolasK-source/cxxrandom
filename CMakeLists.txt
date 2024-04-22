@@ -9,7 +9,7 @@ cmake_minimum_required(VERSION 3.24.0 FATAL_ERROR)
 # ======================================================================================================================
 
 # project
-project(cxxrandom LANGUAGES CXX VERSION 0.0.1)
+project(cxxrandom LANGUAGES CXX VERSION 1.0.0)
 
 set(Target "cxxrandom")        # library name
 set(STANDARD 20)               # C++ Standard
