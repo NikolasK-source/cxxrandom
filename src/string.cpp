@@ -3,13 +3,12 @@
  */
 
 #include "cxxrandom.hpp"
-#include <sstream>
 
 std::string cxxrandom::ascii_string(std::size_t length) {
-    std::ostringstream result;
+    std::string result(length, ' ');
 
     for (std::size_t i = length; i; --i)
-        result << cxxrandom::get(' ', '~');
+        result[i - 1] = cxxrandom::get(' ', '~');
 
-    return result.str();
+    return result;
 }
